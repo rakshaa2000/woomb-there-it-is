@@ -44,18 +44,18 @@ function getCursorXY(e) {
 	var X = e.pageX;
 	var Y = e.pageY;
     if(X>=cuterus.xstart && X<=cuterus.xend && Y>=cuterus.ystart && Y<=cuterus.yend){
-        alert('Found the Cuterus');
+        alert('Congrats, Found the Cuterus');
     }
     if(X>=lovelace.xstart && X<=lovelace.xend && Y>=lovelace.ystart && Y<=lovelace.yend){
-        alert('Found Ada Lovelace');
+        alert('Congrats, Found Ada Lovelace');
     }
     if(X>=kamala.xstart && X<=kamala.xend && Y>=kamala.ystart && Y<=kamala.yend){
-        alert('Found Kamala Harris');
+        alert('Congrats, Found Kamala Harris');
     }
     if(X>=rbg.xstart && X<=rbg.xend && Y>=rbg.ystart && Y<=rbg.yend){
-        alert('Found Ruth Bader Ginsberg');
+        alert('Congrats, Found Ruth Bader Ginsberg');
     }
     if(X>=marie.xstart && X<=marie.xend && Y>=marie.ystart && Y<=marie.yend){
-        alert('Found Marie Curie');
+        alert('Congrats, Found Marie Curie');
     }
 }
